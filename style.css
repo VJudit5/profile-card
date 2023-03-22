@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    line-height: 1.6;
+    background-color: hsla(275, 27%, 95%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+#leftrectangle {
+    width: 40%;
+    height: 100%;
+    background-color: hsla(257, 100%, 20%, 0.2);
+    margin-left: -30%;
+}
+
+.profile-card {
+    width: 720px;
+    max-width: calc(100vw - 10px);
+    margin-left: -20%;
+}
+
+.aboutme {
+    float: right;
+    height: 100%;
+    width: 50%;
+    padding: 0% 5% 5% 5%;
+    color: hsla(257, 100%, 20%);
+}
+
+.personaldetails {
+    float: right;
+    height: 100%;
+    width: 50%;
+    background-color: hsla(275, 27%, 87%);
+    color: hsla(257, 100%, 20%);
+    box-shadow: -10px 5px 25px -5px rgb(101, 101, 101);
+    border-radius: 5px;
+}
+
+.links {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: hsla(275, 27%, 95%);
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.data {
+    text-align: center;
+}
+
+.photo {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#name, #location {
+    padding-bottom: 1em;
+}
+
+#name {
+    font-family: 'Parisienne', cursive;
+    font-weight: 600;
+    font-size: 32px;
+    padding-top: 20px;
+}
+
+hr {
+    width: 40%;
+    border:none;
+    border-top:2px solid;
+    padding-bottom: 1em;
+    margin-left: 30%;
+    color: hsla(150, 40%, 45%);
+}
+
+#profile {
+    border-radius: 50%;
+    width: 65%;
+    height: auto;
+    transition: all 0.5s ease-in-out;
+}
+
+#logo {
+    width: 60%;
+    height: auto;
+    padding-left: 25%;
+}
+
+ul {
+    list-style-type: none;
+}
+  
+li {
+    display: inline-block;
+}
+
+.fa-facebook-square, .fa-instagram, .fa-linkedin-square {
+    color: hsla(150, 40%, 45%);
+}
+
+#profile:hover {
+    transform: scale(1.1);
+    padding: 2px;
+    background-color: hsla(257, 100%, 20%);
+}   
